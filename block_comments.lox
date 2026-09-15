@@ -1,0 +1,21 @@
+print "Before comment";
+
+/*
+This is a block comment.
+It continues across
+multiple lines.
+*/
+
+print "After comment";
+
+/*
+Outer comment.
+
+  /*
+  Nested comment.
+  */
+
+Back to outer comment.
+*/
+
+print "Nested comments work!";
